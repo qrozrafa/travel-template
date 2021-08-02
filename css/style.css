@@ -1,8 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-}
+
 
 
 /*=======GOGLE FONT=======*/
@@ -78,3 +74,96 @@
         --smaller-font-size: .813rem;
     }    
 }
+
+/*========Variaveis Dark theme==========*/
+
+/*========Button dark/light==========*/
+
+/*==========BASE==========*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: var(--header-height) 0 0 0;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    background-color: var(--body-color);
+    color: var(--text-color);
+}
+
+h1,h2,h3{
+    color: var(--title-color);
+    font-weight: var(--font-semi-bold);
+    font-family: var(--title-font);
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img, video{
+    max-width: 100%;
+    height: auto;
+}
+
+button, input{
+    border: none;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+}
+
+button{
+    cursor: pointer;
+}
+
+input{
+    outline: none;
+}
+
+/*==========REUSABLE CSS CLASSES==========*/
+.section{
+    padding: 4.5rem 0 2.5rem;
+}
+
+.section__title{
+    font-size: var(--h2-font-size);
+    color: var(--title-color);
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: var(--mb-2);
+}
+
+.container{
+    max-width: 968px;
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+}
+
+.grid{
+    display: grid;
+    gap: 1.5rem;
+}
+
+
+/*==========HEADER==========*/
+
+/*==========NAV==========*/
+
+/*  SHOW MENU   */
+
+/* Mudança de background HEADER*/
+
+/*  Active link  */
+
+/*==========BASE==========*/
