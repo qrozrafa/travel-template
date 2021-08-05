@@ -242,9 +242,13 @@ input{
 
 .scroll-header{
     background-color: var(--body-color);
-    box-shadow: 0 0 4px hsl(var(--hue-color), 64%, 15%, .15);
+    box-shadow: 0 0 4px hsla(var(--hue-color), 64%, 15%, .15);
 }
 
+.scroll-header .nav__logo,
+.scroll-header .nav__toggle{
+    color: var(--title-color);
+}
 /*  Active link  */
 
 /*========== HOME ==========*/
@@ -359,4 +363,20 @@ input{
 
 .button--link:hover{
     background: none;
+}
+
+/*========== SOBRE ============ */
+.sobre__data{
+    text-align: center;
+}
+.sobre__container{
+    row-gap: 2.5rem;
+}
+
+.sobre__description{
+    margin-bottom: var(--mb-2);
+}
+
+.sobre__img{
+    display: flex;
 }
