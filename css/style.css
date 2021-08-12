@@ -307,7 +307,7 @@ input{
     column-gap: .5rem;
     position: absolute;
     right: 0;
-    bottom: 1rem;
+    bottom: 5rem;
     width: 228px;
 }
 
@@ -379,4 +379,70 @@ input{
 
 .sobre__img{
     display: flex;
+    column-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre__img-overlay{
+    overflow: var(--img-hidden);
+}
+
+.sobre__img-one{
+    width: 130px;
+}
+
+.sobre__img-two{
+    width: 180px;
+}
+
+.sobre__img-one,
+.sobre__img-two{
+    transition: var(--img-transition);
+}
+
+.sobre__img-one:hover,
+.sobre__img-two:hover{
+    transform: var(--img-scale)
+}
+
+/* ======== DESCOBRIR ========= */
+.descobrir__card{
+    position: relative;
+    width: 200px;
+    overflow: var(--img-hidden);
+}
+
+.descobrir__data{
+    position: absolute;
+    bottom: 1.5rem;
+    left: 1rem;
+}
+
+.descobrir__title,
+.descobrir__description{
+    color: var(--white-color);
+}
+
+.descobrir__title{
+    font-size: var(--h3-font-size);
+    margin-bottom: var(--mb-0-25);
+}
+
+.descobrir__description{
+    display: block;
+    font-size: var(--smaller-font-size);
+}
+
+.descobrir__img{
+    transition: var(--img-transition);
+}
+
+.descobrir__img:hover{
+    transform: var(--img-scale);
+}
+
+.swiper-container-3d .swiper-slide-shadow-left,
+.swiper-container-3d .swiper-slide-shadow-right{
+    background-image: none;
 }

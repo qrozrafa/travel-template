@@ -36,3 +36,16 @@ function scrollHeader(){
         else header.classList.remove('scroll-header')
 }
 window.addEventListener('scroll', scrollHeader)
+
+// SWIPER DESCOBRIR
+var swiper = new Swiper(".descobrir__container", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    loop: true,
+    spaceBetween: 32,
+    coverflowEffect: {
+      rotate: 0,
+    },
+});

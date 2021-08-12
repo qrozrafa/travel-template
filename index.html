@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+    <!-- swiper css -->
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
     <!---link css--->
     <link rel="stylesheet" href="./css/style.css">
     <!---link icon--->
@@ -94,20 +96,64 @@
                         <img src="./img/about1.jpg" alt="" class="sobre__img-one">
                     </div>
                     <div class="sobre__img-overlay">
-                        <img src="./img/about2.jpg" alt="" class="sobre__img-one">
+                        <img src="./img/about2.jpg" alt="" class="sobre__img-two">
                     </div>
                 </div>
             </div>
         </section>
         <!----DESCOBRIR----->
-        <section class="descobrir" id="descobrir">
+        <section class="descobrir section" id="descobrir">
+            <h2 class="section__title">Descobre a maior <br> atração do viajo</h2>
 
+            <div class="descobrir__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- DESCOBRIR 1 -->
+                    <div class="descobrir__card swiper-slide">
+                        <img src="./img/discover1.jpg" alt="" class="descobrir__img">
+                        <div class="descobrir__data">
+                            <h2 class="descobrir__title">Moléculas</h2>
+                            <span class="descobrir__description">24 viajo avaliado</span>
+                        </div>
+                    </div>
+
+                    <!-- DESCOBRIR 2 -->
+                    <div class="descobrir__card swiper-slide">
+                        <img src="./img/discover2.jpg" alt="" class="descobrir__img">
+                        <div class="descobrir__data">
+                            <h2 class="descobrir__title">Viajoland</h2>
+                            <span class="descobrir__description">15 viajo avaliado</span>
+                        </div>    
+                    </div>
+
+                    <!-- DESCOBRIR 3 -->
+                    <div class="descobrir__card swiper-slide">
+                        <img src="./img/discover3.jpg" alt="" class="descobrir__img">
+                        <div class="descobrir__data">
+                            <h2 class="descobrir__title">Bahia</h2>
+                            <span class="descobrir__description">18 viajo avaliado</span>
+                        </div>        
+                    </div>
+
+                    <!-- DESCOBRIR 4 -->
+                    <div class="descobrir__card swiper-slide">
+                        <img src="./img/discover4.jpg" alt="" class="descobrir__img">
+                        <div class="descobrir__data">
+                            <h2 class="descobrir__title">Alaska</h2>
+                            <span class="descobrir__description">32 viajo avaliado</span>
+                        </div>        
+                    </div>
+
+                </div>
+            </div>
         </section>
         <!----LUGARES----->  
-        <section class="lugares" id="lugares">
+        <section class="lugares section" id="lugares">
 
         </section>
     </main>
+    <!-- swiper JS -->
+    <script src="./js/swiper-bundle.min.js"></script>
+    <!-- JS -->
     <script src="./js/script.js"></script>
 </body>
 </html>
