@@ -605,3 +605,59 @@ input{
 .lugar__card:hover .lugar__img{
     transform: var(--img-scale);
 }
+
+/* ========= INSCREVA-SE ======= */
+.inscreva__bg{
+    background-color: var(--first-color-second);
+    padding: 2.5rem 0 ;
+}
+
+.inscreva__title,
+.inscreva__description{
+    color: var(--white-color);
+}
+
+.inscreva__description{
+    text-align: center;
+    margin-bottom: var(--mb-2-5);
+}
+
+.inscreva__form{
+    background-color: var(--input-color);
+    padding: .5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inscreva__input{
+    width: 70%;
+    padding-right: .5rem;
+    background-color: var(--input-color);
+    color: var(--text-color);
+}
+
+.inscreva__input::placeholder{
+    color: var(--text-color);
+}
+
+.inscreva__button{
+    border-radius: 0;
+    width: 32%;
+}
+
+/* ======= PATROCINIO ========== */
+.patrocinio__container{
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+    justify-items: center;
+    row-gap: 3.5rem;
+}
+
+.patrocinio__img{
+    width: 90px;
+    filter: invert(.7);
+    transition: var(--img-transition);
+}
+
+.patrocinio__content:hover .patrocinio__img{
+    filter: invert(.5);
+}
