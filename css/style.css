@@ -249,7 +249,21 @@ input{
 .scroll-header .nav__toggle{
     color: var(--title-color);
 }
+
 /*  Active link  */
+.active-link{
+    position: relative;
+    color: var(--title-color);
+}
+.active-link::before{
+    content: '';
+    position: absolute;
+    background-color: var(--title-color);
+    width: 100%;
+    height: 2px;
+    bottom: -.75rem;
+    left: 0;
+}
 
 /*========== HOME ==========*/
 .home__img{
@@ -728,4 +742,31 @@ input{
 
 .footer__terms-link:hover{
     color: var(--text-color);
+}
+
+/* ====== SCROLL UP ====== */
+.scrollup{
+    position: fixed;
+    right: 1rem;
+    bottom: -20%;
+    background-color: var(--first-color);
+    padding: .5rem;
+    display: flex;
+    opacity: .9;
+    z-index: var(--z-tooltip);
+    transition: .4s;
+}
+
+.scrollup__icon{
+    color: var(--white-color);
+}
+
+.scrollup:hover{
+    background-color: var(--first-color-alt);
+    opacity: 1;
+}
+
+/* ========== SHOW SCROLL UP ======== */
+.show-scroll{
+    bottom: 5rem;
 }
