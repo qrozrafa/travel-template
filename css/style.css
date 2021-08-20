@@ -921,9 +921,9 @@ input{
         color: var(--text-color);
     }
 
-    .section{
-        padding: 7rem 0 2rem;
-    }
+    /* .section{
+        /* padding: 7rem 0 2rem; 
+    } */
 
     .home__container{
         height: 100vh;
@@ -935,10 +935,63 @@ input{
     .home__social{
         flex-direction: row;
         align-self: flex-end;
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
         column-gap: 2.5rem;
     }
+    /* .home__info{
+        bottom: 3rem;
+    } */
+
+    .sobre__container{
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+    .sobre__data,
+    .sobre__title{
+        text-align: initial;
+    }
+    .sobre__title{
+        margin-bottom: var(--mb-1-5);
+    }
+    .sobre__description{
+        margin-bottom: var(--mb-2);
+    }
+
+    .descobrir__container{
+        width: 610px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .descobrir__container,
+    .lugar__container{
+        padding-top: 2rem;
+    }
+
+    .experiencia__overlay:nth-child(1){
+        width: 363px;
+        margin-right: 4rem;
+    }
+    .experiencia__overlay:nth-child(2){
+        width: 160px;
+    }
+
+    .inscreva__bg{
+        background: none;
+        padding: 0;
+    }
+    .inscreva__container{
+        background-color: var(--first-color-second);
+        padding: 3.5rem 0;
+    }
+    .inscreva__input{
+        padding: 0.5rem;
+    }
     
+    .footer__rights{
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
 /* For large devices */
 /* For tall screens on mobiles y desktop */
