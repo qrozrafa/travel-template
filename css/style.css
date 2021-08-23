@@ -994,4 +994,26 @@ input{
     }
 }
 /* For large devices */
+@media screen and (min-width: 1024px) {
+    .container{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .home__container{
+        grid-template-rows: 2fr .5fr;
+    }
+    .home__info{
+        width: 328px;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 2rem;
+    }
+    .home__info-title{
+        font-size: var(--normal-font-size);
+    }
+    .home__info-img{
+        width: 240px;
+    }
+    
+}
 /* For tall screens on mobiles y desktop */
