@@ -142,3 +142,24 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+// SCROLL REVEAL ANIMATION
+const sr = ScrollReveal({
+    distance: '60px',
+    duration: 2800,
+    reset: true,
+})
+
+sr.reveal('.home__data, .home__social-link, .home__info, .descobrir__container, .experiencia__data, .experiencia__overlay, .lugar__card, .patrocinio__content, .footer__rights', {
+    origin: 'top',
+    interval: 100,
+})
+
+sr.reveal('.sobre__data, .video__description, .inscreva__description',{
+    origin: 'left',
+})
+
+sr.reveal('.sobre__img-overlay, .video__content, .inscreva__form',{
+    origin:'right',
+    interval: 100,
+})
