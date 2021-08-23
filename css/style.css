@@ -1015,5 +1015,57 @@ input{
         width: 240px;
     }
     
+    .sobre__img-one{
+        width: 240px;
+    }
+    .sobre__img-two{
+        width: 290px;
+    }
+
+    .descobrir__card{
+        width: 237px;
+    }
+    .descobrir__container{
+        width: 700px; 
+    }
+    .descobrir__data{
+        left: 1.5rem;
+        bottom: 2rem;
+    }
+    .descobrir__titlefon{
+        font-size: var(--h2-font-size);
+    }
+
+    .experiencia__content{
+        margin: var(--mb-1) 0;
+        column-gap: 3.5rem;
+    }
+    .experiencia__overlay:nth-child(1){
+        width: 463px;
+        margin-right: 7rem;
+    }
+    .experiencia__overlay:nth-child(2){
+        width: 220px;
+        top: 3rem;
+    }
+
+    .video__container{
+        grid-template-columns: .7fr;
+    }
+    .video__description{
+        padding: 0 8rem;
+    }
+
+    .lugar__container{
+        gap: 3rem 2rem;
+    }
+    .lugar__card,
+    .lugar__img{
+        height: 263px;
+    }
+
+    .footer__content{
+        justify-items: center;
+    }
 }
 /* For tall screens on mobiles y desktop */
