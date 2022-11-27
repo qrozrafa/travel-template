@@ -21,7 +21,7 @@ Esse projeto foi inspirado e guida pelo *BedimCod*
 ![tela plano](https://uploaddeimagens.com.br/images/004/180/623/original/telaViagens.jpg?1669507648)
 
 ### Video
-![tela video}(https://uploaddeimagens.com.br/images/004/180/623/original/telaViagens.jpg?1669507648)
+![tela video](https://uploaddeimagens.com.br/images/004/180/623/original/telaViagens.jpg?1669507648)
 
 ### Footer
 ![tela footer](https://uploaddeimagens.com.br/images/004/180/628/original/telaFooterViagem.jpg?1669507798)
